@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: output "with proper grammar, but the outcome is a piece of art,"
+ * Description: output with proper grammar, but the outcome is a piece of art,
  *
  * Return: 0
  *
