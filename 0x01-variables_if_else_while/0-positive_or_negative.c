@@ -1,14 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h> 
+#include <stdio.h>
+/* more headers goes here */
+
+/* betty style doc for function main goes there */
 /**
+ * main- Entry point
  *
- * main- entry point
- *
- * Description: print number signs
+ * Description: check if a number is positive, negative or zero
  *
  * Return: return 0
  */
+
 int main(void)
 {
 	int n;
@@ -17,15 +20,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("is positive");
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
-		printf("is negative");
+		printf("%d is negative\n", n);
 	}
 	else
 	{
-		printf("is zero")
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
