@@ -1,22 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description : prints alphabets in lower case
+ * Description: prints alphabets in lower case
  *
- * Result : 0
+ * Return: 0
  */
 
 int main(void)
 {
-	char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-	
+	char alpha[] = "abcdefghijklmnopqrstuvwxyz";
+
 	int i;
 
-	for (i = 0, i < 26, i++)
+	for (i = 0; i < 26; i++)
 		putchar(alpha[i]);
-	putchar('\n')
-	return (0)
+	putchar('\n');
+	return (0);
 
 }
