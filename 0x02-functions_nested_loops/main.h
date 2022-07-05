@@ -13,3 +13,5 @@ void print_alphabet(void);
  *
  * Return: nothing
  */
+
+void print_alphabet_x10(void);
