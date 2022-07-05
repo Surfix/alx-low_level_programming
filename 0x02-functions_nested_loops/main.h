@@ -5,3 +5,11 @@ int _putchar(int _char);
  *
  * Return: nothing
  */
+
+void print_alphabet(void);
+
+/**
+ * print alphabet10x - print all alphabets in lowercase
+ *
+ * Return: nothing
+ */
