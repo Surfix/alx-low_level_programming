@@ -3,7 +3,7 @@
 int _islower(int c)
 {
 
-	char lower_alpha = "abcdefghijklmnopqrstuvwxyz";
+	char lower_alpha[] = "abcdefghijklmnopqrstuvwxyz";
 
 	int i;
 
