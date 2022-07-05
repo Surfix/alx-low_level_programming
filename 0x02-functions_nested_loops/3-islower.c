@@ -2,7 +2,6 @@
 
 int _islower(int c)
 {
-	int c;
 
 	char lower_alpha = "abcdefghijklmnopqrstuvwxyz";
 
