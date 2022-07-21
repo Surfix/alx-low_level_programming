@@ -31,3 +31,4 @@ int factorial(int n)
 	result = n * factorial(n - 1);
 
 	return (result);
+}
