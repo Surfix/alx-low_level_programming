@@ -1,29 +1,38 @@
 #include "main.h"
 #include <string.h>
 
+
 /**
- * is_palindrome - checks if a string is palindrome
+ * is_palindrome - check if a string is palindrome
  *
- * @s: string pointer
+ * @s: char pointer
  *
- * Return: 1 if palindrome, 0 otherwise
+ * Return: int
  */
 
 int is_palindrome(char *s)
 {
-	int l;
+	if (!*s)
+		return (0);
+	return (ch_palind(0, s));
+}
+/**
+ * ch_palind - check if a number is a palindrome
+ *
+ * @curri: int
+ * @s: char pointer
+ *
+ * Return: int
+ */
 
-	l = strlen(s);
+int ch_palind(int curri, char *s)
+{
+	int l = strlen(s)  - curri;
+	int i = curri - 1;
 
-	if (l == 0 || l == 1)
-	{
+	if (s[i] != s[l])
+		return (0);
+	if (l == 0 && s[i] == s[l])
 		return (1);
-	}
-
-	if (s[0] == s[l - 1])
-	{
-		return (is_palindrome(s + 1));
-	}
-
-	return (0);
+	return (ch_palind(curri + 1, s));
 }
