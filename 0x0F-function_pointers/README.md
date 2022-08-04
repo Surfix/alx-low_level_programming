@@ -38,4 +38,18 @@ Repo:
 * Directory: 0x0F-function_pointers
 * File: 1-array_iterator.c
 
+2. To hell with circumstances; I create opportunities
+Write a function that searches for an integer
+	* Prototype: int int_index(int *array, int size, int (*cmp)(int));
+	* where size is the number of elements in the array array
+	* cmp is a pointer to the function to be used to compare values
+	* int_index returns the index of the first element for which the cmp function does not return 0
+	* if no element matches, return -1
+	* if size <=0, return -1
+Repo:
+
+* GitHub repository: alx-low_level_programming
+* Directory: 0x0F-function_pointers
+* File: 2-int_index.c
+
 
