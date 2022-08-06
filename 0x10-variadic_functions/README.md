@@ -37,6 +37,16 @@ At the end of this project, you are expected to be able to [explain to anyone](h
 
 ## Tasks
 0. Beauty is variable, ugliness is constant
+Write a function that returns the sum of all its parameters.
+
+- Prototype: int sum_them_all(const unsigned int n, ...);
+- If n == 0, return 0
+
+Repo:
+
+- GitHub repository: alx-low_level_programming
+- Directory: 0x10-variadic_functions
+- File: 0-sum_them_all.c
 
 1. To be is to be the value of a variable
 
